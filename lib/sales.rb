@@ -1,5 +1,5 @@
 require_relative "../lib/utils/prompt_utils"
-require_relative "../lib/receipt/receipt"
+require_relative "../lib/cart/cart"
 include PromptUtils
 
 puts "Welcome to SALES CODE CHALLENGE!\n\n"
@@ -13,7 +13,7 @@ product_items = PromptUtils.gets_product_items_multi_line
 
 puts "Give me a sec, processing...\n\n"
 
-# Generates a new Receipt
-Receipt.new(product_items).print
+# Generates a new Cart
+Cart.new(product_items).print_receipt
 
 puts "\nMade with <3 by Gabriel Villoldo (gabrielvilloldo@gmail.com)\n"

@@ -1,6 +1,6 @@
 # Sales Code Challenge
 
-Solution in Ruby for [Sales Code Challenge][challenge]
+CLI solution made in Ruby for [Sales Code Challenge][challenge]
 
 ## Requirements
 

@@ -1,12 +1,12 @@
 require_relative "../../lib/tax/tax_calculator"
 
-class Receipt
+class Cart
 
   def initialize(product_items)
     @product_items = product_items
   end
 
-  def print
+  def print_receipt
     print_header
     #
     @total_sales_taxes = 0.0
