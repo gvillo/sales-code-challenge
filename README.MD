@@ -9,7 +9,7 @@ CLI solution made in Ruby for [Sales Code Challenge][challenge]
 ## Getting Started
 
 * Clone repo
-* Run `ruby sales.rb` and follow instructions
+* Run `ruby sales.rb` (from `lib` folder) and follow instructions
 * Grab an input from [here][challenge] and enter it
 * Enjoy!
 
